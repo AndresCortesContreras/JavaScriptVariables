@@ -95,3 +95,37 @@ console.log(`El descuento a aplicar es de ${ans} y el precio total es ${((option
     for(let i=1; i<=10; i++){
 console.log(`El numero en FOR va en ${i}`)
     }
+
+    //Tablar de multiplicar
+
+    let tabla=0;
+
+    while (tabla<10){
+        tabla++
+        console.log(`7 por ${tabla} es ${(tabla*7)}`)
+    }
+
+    //Numeros par
+
+let par
+par=0;
+
+while (par<=10){
+    if (par%2==0){
+        console.log(`El numero ${par} es par`)
+     }   
+    par++
+}
+
+//numeros Impares
+
+for (let i=0; i<=10; i++){
+    if (i % 2 !=0) {
+    console.log(`El numero ${i} es impar`)
+    } 
+   
+}
+//Numeros del 10 al 1
+for (let a=10; a>=1; a--){
+  console.log(`El numero es ${a}`)
+}
