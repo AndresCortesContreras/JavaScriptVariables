@@ -182,3 +182,5 @@ const mascota = {
 
 
 console.log(`El telefono de la mascota ${mascota.nombre} es ${mascota.propietario.contacto.telefono}`)
+
+
